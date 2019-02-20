@@ -81,7 +81,7 @@ class App extends Component {
               <p className="para">
                 {this.state.paragraph}
               </p>
-              <textarea className="textarea" rows="5" onChange={this.handleChange}></textarea>
+              <textarea className="textarea" rows="5" onChange={this.handleChange} placeholder="type the above sentence"></textarea>
             </div>
               </div>
               :
